@@ -19,9 +19,27 @@ body {
   justify-content: flex-end;
 }
 
+@media (max-width: 800px){
+    #firstContent{
+      flex-direction: column;
+    }
+    #imageBox{
+      width: 100%;
+    }
+    #firstContentText{
+      width: 100%;
+    }
+  }
+
 @media (max-width: 300px){
     #firstContent{
       flex-direction: column;
+    }
+    #imageBox{
+      width: 100%;
+    }
+    #firstContentText{
+      width: 100%;
     }
   }
 
