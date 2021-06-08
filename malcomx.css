@@ -1,0 +1,136 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#firstContent {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+@media (max-width: 300px){
+    #firstContent{
+      flex-direction: column;
+    }
+  }
+
+#imageBox {
+  order: 1;
+  flex-grow: 1;
+  align-self: flex-end;
+  max-width: 500px;
+  margin-right: 0;
+  min-width: 50%;
+}
+
+
+#malcolmXIimage {
+  max-width: 100%;
+  box-sizing: border-box;
+  float: right;
+}
+
+
+#firstContentText {
+  order: 2;
+  flex-grow: 1;
+  min-width: 30%;
+  margin-top: 25vh;
+  font-size: 2.3em;
+  color: #fff;
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 25vh;
+}
+
+#malcolmXName {
+ font-color: white;
+  font-size:60px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#malcolmXLife {
+ font-color: white;
+  font-size:40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#malcolmXIntro {
+  font-color: white;
+  font-family: serif, sans-serif;
+  font-style: italic;
+  font-size:20px;
+  max-width: 400px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+#secondCntent{
+  background-color: #dcdcdc;
+}
+
+#headline-box{
+  max-width: auto;
+  background-color: #808080;
+  font-family: fantasy; 
+  font-style: italic;
+  font-size:40px;
+  margin: 0 auto 50px 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 20px 0;
+}
+
+blockquote {
+  margin-right: 30px;
+  margin-left: 30px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
