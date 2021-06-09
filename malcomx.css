@@ -43,7 +43,7 @@ body {
     }
   }
 
-#imageBox {
+#img-div {
   order: 1;
   flex-grow: 1;
   align-self: flex-end;
@@ -53,14 +53,14 @@ body {
 }
 
 
-#malcolmXIimage {
+#image {
   max-width: 100%;
   box-sizing: border-box;
-  float: right;
+  float: center;
 }
 
 
-#firstContentText {
+#tribute-info {
   order: 2;
   flex-grow: 1;
   min-width: 30%;
